@@ -17,7 +17,7 @@ before_script:
 matrix:
   include:
     - php: 5.3
-    dist: precise
+      dist: precise
   allow_failures:
     - php: nightly
     - php: hhvm
